@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0 ;
+}
+
+body::before{
+    opacity: 0.8;
+    content: "";
+    height: 100%;
+    width:100%;
+    top: 0px;
+    z-index: -1;
+    position:absolute;
+    background:url('/static/aa.jpg')  no-repeat center center;
+}
+
+
+nav{
+    background: beige;
+    padding: 12px 12px;
+}
+   
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+    padding: 3px 4px;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin : 80px auto;
+    max-width: 20%;
+
+}
+input,textarea{
+    display: block;
+    outline: navy;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 5px ;
+}
+h2{
+    text-align: center;
+    padding: 5px 10px 10px 0;
+}
+.btn{
+    background-color: aqua;
+    margin: 5px 0 0 0;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
